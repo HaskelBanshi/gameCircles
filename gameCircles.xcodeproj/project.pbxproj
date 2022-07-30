@@ -16,6 +16,8 @@
 		831561F22889B4CC00800216 /* gameCirclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831561F12889B4CC00800216 /* gameCirclesTests.swift */; };
 		831561FC2889B4CC00800216 /* gameCirclesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831561FB2889B4CC00800216 /* gameCirclesUITests.swift */; };
 		831561FE2889B4CC00800216 /* gameCirclesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831561FD2889B4CC00800216 /* gameCirclesUITestsLaunchTests.swift */; };
+		8315620B2889B8FC00800216 /* CircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8315620A2889B8FC00800216 /* CircleView.xib */; };
+		8315620D2889BB5300800216 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8315620C2889BB5300800216 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		831561F72889B4CC00800216 /* gameCirclesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameCirclesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831561FB2889B4CC00800216 /* gameCirclesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameCirclesUITests.swift; sourceTree = "<group>"; };
 		831561FD2889B4CC00800216 /* gameCirclesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameCirclesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8315620A2889B8FC00800216 /* CircleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleView.xib; sourceTree = "<group>"; };
+		8315620C2889BB5300800216 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +106,11 @@
 				831561DA2889B4CA00800216 /* AppDelegate.swift */,
 				831561DC2889B4CA00800216 /* SceneDelegate.swift */,
 				831561DE2889B4CA00800216 /* ViewController.swift */,
+				8315620C2889BB5300800216 /* CircleView.swift */,
 				831561E02889B4CA00800216 /* Main.storyboard */,
-				831561E32889B4CC00800216 /* Assets.xcassets */,
+				8315620A2889B8FC00800216 /* CircleView.xib */,
 				831561E52889B4CC00800216 /* LaunchScreen.storyboard */,
+				831561E32889B4CC00800216 /* Assets.xcassets */,
 				831561E82889B4CC00800216 /* Info.plist */,
 			);
 			path = gameCircles;
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8315620B2889B8FC00800216 /* CircleView.xib in Resources */,
 				831561E72889B4CC00800216 /* LaunchScreen.storyboard in Resources */,
 				831561E42889B4CC00800216 /* Assets.xcassets in Resources */,
 				831561E22889B4CA00800216 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8315620D2889BB5300800216 /* CircleView.swift in Sources */,
 				831561DF2889B4CA00800216 /* ViewController.swift in Sources */,
 				831561DB2889B4CA00800216 /* AppDelegate.swift in Sources */,
 				831561DD2889B4CA00800216 /* SceneDelegate.swift in Sources */,
